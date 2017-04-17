@@ -1,0 +1,29 @@
+{
+  "name": "header_parser",
+  "version": "1.0.0",
+  "description": "Parses an HTTP request header in order to display IP address, browser language, and operating system.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgdev1024/Header_Parser.git"
+  },
+  "keywords": [
+    "header-parser",
+    "header",
+    "parser",
+    "freecodecamp"
+  ],
+  "author": "Dennis Griffin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgdev1024/Header_Parser/issues"
+  },
+  "homepage": "https://github.com/dgdev1024/Header_Parser#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
